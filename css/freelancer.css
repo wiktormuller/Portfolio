@@ -1,0 +1,62 @@
+.freelancer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 260px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    
+    background-color: #04C2C9;
+    color: white;
+    text-align: center;
+}
+
+.hire_me
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 5px;
+    border: 2px solid white;
+
+    color: white;
+    
+}
+
+a.hire_me_link
+{   
+    display: block;
+    padding: 10px;
+    color: white;
+}
+
+a.hire_me_link:link
+{
+    display: block;
+    text-decoration: none;
+}
+
+a.hire_me_link:visited
+{
+    display: block;
+    text-decoration: none;
+}
+
+a.hire_me_link:hover
+{
+    display: block;
+    text-decoration: none;
+}
+
+.hire_me:hover
+{
+    background-color: #e31c6e;
+    border: 2px solid #e31c6e;
+}

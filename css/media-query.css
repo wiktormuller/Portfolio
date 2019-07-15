@@ -1,0 +1,366 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  .about
+  {
+    margin-bottom: 80px;
+  }
+
+  img.about_picture
+  {
+    width: 500px;
+    height: 500px;
+  }
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .about
+  {
+    margin-bottom: 80px;
+  }
+
+  img.about_picture
+  {
+    width: 500px;
+    height: 500px;
+  }
+
+  .skills_section
+  {
+    width: 1000px;
+  }
+
+  .skills_column
+  {
+    overflow: auto;
+    height: 1%;
+    border: none;
+  }
+
+  .works_section
+  {
+    width: 800px;
+    height: 300px;
+  }
+
+  .works_content
+  {
+    width: 500px;
+  }
+
+  .works_photo
+  {
+    width: 300px;
+    height: 300px;
+  }
+
+  .projects_content
+  {
+    width: 540px;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .about
+  {
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+
+  img.about_picture
+  {
+    width: 500px;
+    height: 500px;
+  }
+
+  .cv
+  {
+    margin-bottom: 15px;
+  }
+
+  .skills_section
+  {
+    width: 750px;
+  }
+
+  .skills_column
+  {
+    overflow: auto;
+    height: 1%;
+    border: none;
+  }
+
+  .works_content
+  {
+    width: 500px;
+  }
+
+  .works_photo
+  {
+    width: 250px;
+    height: 250px;
+  }
+
+  h1
+
+  {
+    font-size: 20px;
+  }
+
+  h2
+  {
+    font-size: 70px;
+  }
+
+  .projects_content
+  {
+    width: 540px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .about
+  {
+    flex-direction: column;
+  }
+
+  .about_section
+  {
+    width: 400px;
+  }
+
+  img.about_picture
+  {
+    width: 400px;
+    height: 400px;
+  }
+
+  .cv
+  {
+    margin-bottom: 15px;
+  }
+
+  .skills_section
+  {
+    width: 400px;
+  }
+
+  .skills_column
+  {
+    overflow: auto;
+    height: 1%;
+    border: none;
+  }
+
+  .works_section
+  {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 470px;
+  }
+
+  .works_content
+  {
+    width: 470px;
+  }
+
+  .works_photo
+  {
+    width: 300px;
+    height: 300px;
+  }
+
+  form
+  {
+    width: 400px;
+  }
+
+  h1
+
+  {
+    font-size: 18px;
+  }
+
+  h2
+  {
+    font-size: 50px;
+  }
+
+  .projects_content
+  {
+    width: 430px;
+  }
+
+  .project_photo
+  {
+    width: 430px;
+    height: 430px;
+  }
+
+  .project_description
+  {
+    width: 430px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 220px) and (max-width: 480px) {
+  
+  ul
+  {
+    display: none;
+  }
+
+  .nav_showing
+  {
+    flex-direction: column;
+  }
+
+  .ul_showing
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hamburger_menu
+  {
+    display: flex;
+  }
+
+  a.navbar:hover
+  {
+    border: none;
+    margin-top: 0;
+    background-color: #1f252b;
+  }
+
+  .about
+  {
+    flex-direction: column;
+  }
+
+  .about_section
+  {
+    width: 300px;
+  }
+
+  img.about_picture
+  {
+    width: 300px;
+    height: 300px;
+  }
+
+  .cv
+  {
+    margin-bottom: 15px;
+  }
+
+  .skills_section
+  {
+    width: 300px;
+  }
+
+  .skills_column
+  {
+    overflow: auto;
+    height: 1%;
+    border: none;
+    width: 300px;
+  }
+
+  .works_section
+  {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+  }
+
+  .works_content
+  {
+    width: 300px;
+  }
+
+  .works_photo
+  {
+    width: 300px;
+    height: 300px;
+  }
+
+  form
+  {
+    width: 300px;
+  }
+
+  h1
+
+  {
+    font-size: 15px;
+  }
+
+  h2
+  {
+    font-size: 40px;
+  }
+
+  .projects_content
+  {
+    width: 300px;
+  }
+
+  .project_photo
+  {
+    width: 300px;
+    height: 300px;
+  }
+
+  .project_description
+  {
+    width: 300px;
+  }
+
+  .contact_text
+  {
+    width: 300px;
+  }
+}
